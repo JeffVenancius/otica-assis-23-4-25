@@ -1,0 +1,98 @@
+[
+    {
+        "marca": "Oslo",
+        "Grau/Sol": "Óculos de Sol",
+        "Gênero": "Feminino",
+        "preco": 249,
+        "precoPromo": 249,
+        "modelo": "",
+        "cor numérica": "",
+        "cor": "Preto",
+        "Formato": "Borboleta",
+        "tipoDeCard": "Com Preço",
+        "wppDesc": 59,
+        "imgs": [
+            "https://i.ibb.co/zHNqTYbS/0-2.jpg"
+        ]
+    },
+    {
+        "marca": "Oslo",
+        "Grau/Sol": "Óculos de Sol",
+        "Gênero": "Feminino",
+        "preco": 249,
+        "precoPromo": 249,
+        "modelo": "",
+        "cor numérica": "",
+        "cor": "Preto",
+        "Formato": "Mascara",
+        "tipoDeCard": "Com Preço",
+        "wppDesc": 60,
+        "imgs": [
+            "https://i.ibb.co/8L87F1VG/0-3.jpg"
+        ]
+    },
+    {
+        "marca": "Oslo",
+        "Grau/Sol": "Óculos de Sol",
+        "Gênero": "Feminino",
+        "preco": 249,
+        "precoPromo": 249,
+        "modelo": "",
+        "cor numérica": "",
+        "cor": "Preto",
+        "Formato": "Mascara",
+        "tipoDeCard": "Com Preço",
+        "wppDesc": 61,
+        "imgs": [
+            "https://i.ibb.co/cKRVWwdG/0-6.jpg"
+        ]
+    },
+    {
+        "marca": "Oslo",
+        "Grau/Sol": "Óculos de Sol",
+        "Gênero": "Feminino",
+        "preco": 249,
+        "precoPromo": 249,
+        "modelo": "",
+        "cor numérica": "",
+        "cor": "Preto",
+        "Formato": "Quadrado",
+        "tipoDeCard": "Com Preço",
+        "wppDesc": 62,
+        "imgs": [
+            "https://i.ibb.co/Y4St9Z8q/0-7.jpg"
+        ]
+    },
+    {
+        "marca": "Oslo",
+        "Grau/Sol": "Óculos de Sol",
+        "Gênero": "Feminino",
+        "preco": 249,
+        "precoPromo": 249,
+        "modelo": "",
+        "cor numérica": "",
+        "cor": "Preto",
+        "Formato": "Quadrado",
+        "tipoDeCard": "Com Preço",
+        "wppDesc": 63,
+        "imgs": [
+            "https://i.ibb.co/NgWZ435S/0-15.jpg"
+        ]
+    },
+    {
+        "marca": "Oslo",
+        "Grau/Sol": "Óculos de Sol",
+        "Gênero": "Feminino",
+        "preco": 249,
+        "precoPromo": 249,
+        "modelo": "",
+        "cor numérica": "",
+        "cor": "Tortoise",
+        "Formato": "Mascara",
+        "tipoDeCard": "Com Preço",
+        "wppDesc": 64,
+        "imgs": [
+            "https://i.ibb.co/ycX1z5ZB/0-16.jpg"
+        ]
+    }
+]

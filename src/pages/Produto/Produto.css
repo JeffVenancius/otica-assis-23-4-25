@@ -1,0 +1,224 @@
+.product {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-column-gap: 5%;
+	   -moz-column-gap: 5%;
+	        column-gap: 5%;
+}
+
+.card__img__colection--product {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	overflow: hidden;
+	width: 40vw;
+	-webkit-box-pack: 'center';
+	    -ms-flex-pack: 'center';
+	        justify-content: 'center';
+}
+.product__variations {
+	width: 100%;
+	height: 32px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	-webkit-column-gap: 2%;
+	   -moz-column-gap: 2%;
+	        column-gap: 2%;
+}
+
+.product__variations__btn {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	aspect-ratio: 1/1;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: center;
+	border-radius: 15%;
+}
+
+.product__variations__btn:hover, .product__variations__btn.active {
+	border: 3px solid #2c2d3b;
+}
+
+.promoContainer {
+	position: relative;
+}
+
+.discount--product {
+	position: absolute;
+	padding: 8px;
+	background-color: #2c2d3b;
+	color: white;
+	font-size: 20px;
+	width: 78px;
+	height: 12px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	right: 0;
+	font-weight: 500;
+}
+
+.card__image__custom--product {
+	width: 100%;
+	aspect-ratio: 1.1/1;
+	-o-object-fit: contain;
+	   object-fit: contain;
+}
+
+.card__img__colection--product .card__image__custom--product {
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 0 100%;
+	        flex: 1 0 100%;
+	-webkit-transition: translate 1s ease-out;
+	-o-transition: translate 1s ease-out;
+	transition: translate 1s ease-out
+}
+
+.product__specs {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	line-height: 32px;
+	width: 500px;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+}
+
+
+.product__specs h1, .product__specs h2, .product__specs p {
+	margin: 0;
+}
+
+.product__specs h1 {
+	font-size: 32px;
+	text-align: right;
+}
+
+.product__specs p {
+	font-size: 20px;
+}
+
+.product__specs--price {
+	width: 100%;
+	text-align: right;
+	margin-bottom: 5%;
+	margin-top: 2%;
+}
+
+.product__specs--price p {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.product__specs--specs {
+	margin-left: auto;
+}
+
+.product__specs--model {
+	text-align: right;
+}
+
+@media (max-width: 1900px) {
+	.card__img__colection--product {
+		width: 40vw;
+	}
+}
+
+@media (max-width: 1150px) {
+	.product {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.card__img__colection--product {
+		width: 60vw;
+		aspect-ratio: 1/1;
+	}
+	.product__specs--specs {
+		margin: auto;
+	}
+	.product__specs--price {
+		text-align: center;
+	}
+	.product__variations {
+		margin: 2% 0;
+		height: 40px;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.product__variations__btn:hover, .product__variations__btn.active {
+		border: 5px solid #2c2d3b;
+	}
+} 
+
+@media (max-width: 790px) {
+	.card__img__colection--product {
+		width: 80vw;
+	}
+	.product__specs {
+		width: 70vw;
+	}
+}
+
+@media (max-width: 530px) {
+	.product__specs {
+		line-height: 6vw;
+	}
+	.product__specs h1 {
+		font-size: 6vw;
+	}
+	.product__specs p {
+		font-size: 3.5vw;
+	}
+	.product__specs--price p {
+		line-height: 4vw;
+	}
+	.discount--product {
+		height: 2.5vw;
+		width: 15vw;
+		font-size: calc(6px + 4vw);
+	}
+	.product__variations {
+		height: 8vw;
+	}
+	.product__variations__btn:hover, .product__variations__btn.active {
+		border: 1vw solid #2c2d3b;
+	}
+} 

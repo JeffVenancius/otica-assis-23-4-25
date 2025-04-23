@@ -1,0 +1,76 @@
+.caroussel__title {
+	margin-top: 5%;
+}
+.caroussel__title * {
+	text-align: center;
+	margin: 0;
+}
+
+.caroussel__container {
+	margin: 0 5%;
+	margin-bottom: 5%;
+}
+
+.slick-slide > div {
+	margin: 5% 5%;
+}
+
+.slick-prev, .slick-next {
+	width: 32px;
+	height: 32px;
+}
+
+.slick-dots li button::before, .slick-dots li.slick-active button::before {
+	content: '';
+}
+
+.slick-dots li button {
+	border: 2px solid black;
+	border-radius: 50%;
+	height: 12px;
+	width: 12px;
+}
+
+.slick-dots li.slick-active button::before {
+	content: "";
+}
+.slick-dots li.slick-active button {
+	border: none;
+	background-color:  #ff602b;
+	width: 100%;
+	height: 100%;
+	border-radius: 16px;
+}
+
+
+.slick-dots li {
+	-webkit-transition: width 0.3s;
+	-o-transition: width 0.3s;
+	transition: width 0.3s;
+}
+.slick-dots li.slick-active {
+	width: 48px;
+	height:12px;
+}
+.slick-dots {
+	bottom: -40px
+}
+
+@media (max-width: 550px) {
+	.slick-prev, .slick-next {
+			width: 5%;
+			height: 5%;
+		}
+	.caroussel__title h2 {
+		font-size: 5vw;
+	}
+	.caroussel__title h3 {
+		font-size: 4vw;
+	}
+	.caroussel__container {
+		margin-bottom: 10%;
+	}
+	.slick-dots {
+		bottom: -32px
+	}
+}
