@@ -56,6 +56,16 @@
 	bottom: -40px
 }
 
+@media (max-width: 660px) {
+	.slick-prev {
+		left:-3vw;
+	}
+	.slick-next {
+		right:-3vw;
+	}
+
+}
+
 @media (max-width: 550px) {
 	.slick-prev, .slick-next {
 			width: 5%;
@@ -73,4 +83,27 @@
 	.slick-dots {
 		bottom: -32px
 	}
+	.slick-dots li button {
+		width: 2vw;
+		height: 2vw;
+		border: 0.5vw solid black;
+		min-width: unset;
+		min-height: unset;
+		padding: 0;
+	}
+		.slick-dots li.slick-active {
+			width: 6vw;
+			height: 1.5vw;
+	}
+}
+
+@media (max-width: 400px) {
+	.slick-dots li button {
+		width: 2.5vw;
+		height: 2.5vw;
+	}
+		.slick-dots li.slick-active {
+			height: 3vw;
+			width: 10vw;
+		}
 }

@@ -365,6 +365,10 @@
 .header__options.active > .header__buttons--first {
 	color: #fff;
 }
+.header__options .header__buttons--first {
+	padding-bottom: 2vw;
+}
+
 .header__options a button {
 	margin-left: 5%;
 }

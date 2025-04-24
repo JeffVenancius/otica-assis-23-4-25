@@ -376,7 +376,8 @@ textarea:focus, input:focus{
 	.hambuger__close {
 		z-index: 1011;
 		position: unset;
-		margin-top: -10%;
+		margin-top: -3vh;
+		margin-bottom: 3vh;
 		margin-left: 2%;
 	}
 
@@ -444,8 +445,8 @@ textarea:focus, input:focus{
 
 @media (max-width: 540px) {
 .mobile__on > .mobile__background .hambuger__close {
-	width: 15vw;
-	margin-top: -64px;
+	width: 20vw;
+	margin-top: -5vh;
 	margin-left: 2%;
 }
 	.search__container button, .search__container a {
