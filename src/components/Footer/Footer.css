@@ -1,5 +1,5 @@
 .footer {
-	background-color: #f7913a;
+	background-color: #3a4b52;
 	width: 100%;
 	color: white;
 	margin-top: 18%;
@@ -11,15 +11,16 @@
 .paragraphs--footer--mobile, .follow__us__mobile {
 	display: none;
 }
-.footer__block {
-	margin-top: 133px;
-}
 
+.logo__footer {
+	margin-left: auto;
+	width: 40%;
+	margin-right: 5%;
+}
 .logo__footer__img {
-	width: 20vw;
+	width: 100%;
 	-o-object-fit: contain;
 	   object-fit: contain;
-	margin-top: 200px;
 }
 
 .footer a {
@@ -32,16 +33,16 @@
 }
 
 .footer--fields {
-	background-color: #f7913a;
+	background-color: #3a4b52;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: space-evenly;
-	    -ms-flex-pack: space-evenly;
-	        justify-content: space-evenly;
-	-webkit-box-align: start;
-	    -ms-flex-align: start;
-	        align-items: flex-start;
+	-webkit-box-pack: space-around;
+	    -ms-flex-pack: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	-webkit-column-gap: 2%;
 	   -moz-column-gap: 2%;
 	        column-gap: 2%;
@@ -55,6 +56,11 @@
 
 .footer--fields p {
 	font-size: 14px;
+}
+
+.footer__second_col {
+	margin-right: auto;
+	margin-left: 5%;
 }
 
 .f--field {
@@ -125,7 +131,7 @@
 
 .rights__reserved {
 	line-height: 0;
-	background-color: #de7c34;
+	background-color: #d8dede;
 	height: 64px;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
@@ -151,6 +157,7 @@
 .rights__reserved p {
 	margin: 0;
 	font-size: 14px;
+	color: black;
 }
 
 .footer__social {
@@ -188,117 +195,57 @@
 	font-size:105%;
 }
 
-@media only screen and (max-width:914px) {
-	.footer h2 {
-		font-weight: 600;
-	}
-	.paragraphs--footer {
-		display: none;
-	}
-	.paragraphs--footer--mobile, .follow__us__mobile {
-		display: unset;
-	}
-	.paragraphs--footer--mobile p {
-		text-align: center;
-		margin-bottom: 8px;
-	}
+
+@media  (max-width: 550px) {
 	.footer--fields {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		    -ms-flex-direction: column;
-		        flex-direction: column;
-		-webkit-box-align: center;
-		    -ms-flex-align: center;
-		        align-items: center;
-		height: 600px;
-		padding: 1% 1%;
-		padding-bottom: 0;
-	}
-	.footer__block, .endereço>div, .footer--fields>img, .footer__second_col {
-		margin: auto;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-orient:vertical;
-		-webkit-box-direction:normal;
-		    -ms-flex-direction:column;
-		        flex-direction:column;
-	}
-	.logo__footer__img {
-		width: 50%;
-		margin: auto;
-		margin-top: 0;
-	}
-	.logo__footer {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		    -ms-flex-direction: column;
-		        flex-direction: column;
-		-webkit-box-pack: justify;
-		    -ms-flex-pack: justify;
-		        justify-content: space-between;
-		width: 100%;
-	}
-	.footer__follow_us {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-pack: end;
-		    -ms-flex-pack: end;
-		        justify-content: flex-end;
-		margin: auto;
-	}
-	.footer__follow_us {
-		display: none;
-	}
-	.footer__social {
-		min-height: 40px;
+		font-size: 3vw;
 	}
 	.footer h2 {
-		text-align: center;
+		font-size: 4vw;
 	}
-	.f--field {
-		row-gap: unset;
+	.footer--fields p {
+		font-size: 2.5vw;
 	}
-	.follow__us__mobile {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		gap: 2vw;
-		margin-left: auto;
-		margin-right: 1%;
-		height:100%;
-	}
+
 	.footer__social {
-		margin: 0;
+		margin-bottom: 2.5vw;
 	}
-	.footer__social img {
-		height: 12vw;
-		max-height: 36px;
-	}
+.footer--fields {
+	height: 70vw;
 }
 
-
-@media only screen and (max-width:620px) {
-	.footer {
-		margin-top: 8vw;
-}
-.wpp {
-	display: none;
+.f--field {
+	row-gap: 0;
 }
 
-.wpp__mobile {
-	display: unset;
-	text-align: center;
-	color: white;
+.footer h2 {
+	font-size: 4.5vw;
 }
+.footer__follow_us {
+	margin-top: 7vw;
 }
 
-@media only screen and (max-width:333px) {
-	.footer--fields>img {
-		width: 90vw;
+.rights__reserved {
+	height: 15vw;
+}
+.rights__reserved img {
+	height: 7vw;
+}
+.rights__reserved p {
+	font-size: 2.5vw;
+}
+.footer__social {
+	height: 5vw;
+	font-size: 4vw;
+	-webkit-column-gap: 2vw;
+	   -moz-column-gap: 2vw;
+	        column-gap: 2vw;
+	margin-bottom: 2.5vw;
+}
+.footer__social p {
+	font-size: 2.5vw;
+}
+.logo__footer {
+	width: 70%;
 }
 }

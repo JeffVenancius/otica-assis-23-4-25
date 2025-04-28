@@ -11,27 +11,6 @@ const Footer = (props) => {
 		<div className="footer">
 		<div className='footer__fields--container'>
 		<div className="footer--fields" >
-		<div className='endereço footer__block'>
-		<div>
-		<h2>Endereços</h2>
-		<div className="paragraphs--footer">
-		<p>RUA ASSIS FIGUEIREDO, n° 1045 - CENTRO</p>
-		<p>RUA PARAÍBA, n° 329 - CENTRO</p>
-		<p>RUA PREFEITO CHAGAS, n° 375 - CENTRO</p>
-		<p>RUA RIO GRANDE DO SUL, n° 825 - CENTRO</p>
-		<p>AVENIDA ALCOA, n° 6850 - 2 - JARDIM PARAÍSO</p>
-		<p>RUA ASSIS FIGUEIREDO, n° 1169 - CENTRO</p>
-		</div>
-		<div className="paragraphs--footer--mobile">
-		<p><b>RUA ASSIS FIGUEIREDO,</b><br></br> n° 1045 - <b>CENTRO</b></p>
-	<p><b>RUA PARAÍBA,</b><br></br> n° 329 - <b>CENTRO</b></p>
-		<p><b>RUA PREFEITO CHAGAS,</b><br></br> n° 375 - <b>CENTRO</b></p>
-		<p><b>RUA RIO GRANDE DO SUL,</b><br></br> n° 825 - <b>CENTRO</b></p>
-		<p><b>AVENIDA ALCOA,</b><br></br> n° 6850/2 - <b>JARDIM PARAÍSO</b></p>
-		<p><b>RUA ASSIS FIGUEIREDO,</b><br></br> n° 1169 - <b>CENTRO</b></p>
-		</div>
-		</div>
-</div>
 		<div className="footer__second_col footer__block">
 		<div className='contato f--field'>
 		<h2>CONTATO</h2>
@@ -71,6 +50,7 @@ const Footer = (props) => {
 		</div>
 		</div>
 		<div className="rights__reserved">
+		<img src="assets/certificado.svg"/>
 		<p>2024 Ótica Assis. Todos os direitos reservados</p>
 		</div>
 		</div>
