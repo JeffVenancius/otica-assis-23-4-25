@@ -50,7 +50,7 @@ const Footer = (props) => {
 		</div>
 		</div>
 		<div className="rights__reserved">
-		<img src="assets/certificado.svg"/>
+		<img src="/assets/certificado.svg"/>
 		<p>2024 Ótica Assis. Todos os direitos reservados</p>
 		</div>
 		</div>

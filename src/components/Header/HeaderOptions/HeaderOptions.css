@@ -261,10 +261,10 @@
 		width: 50vw;
 	}
 	.header__options > .header__options--container--lvl3, .first__category > .header__options--container--blank {
-		left: 29%;
+		left: 45%;
 	}
 	.header__options--container--lvls, .header__options:hover > .header__options--container--lvl3, .header__options.active > .header__options--container--lvl3, .header__options--item:hover > .header__options--container--lvls.header__options--container--lvl4, .header__options--item.active > .header__options--container--lvls.header__options--container--lvl4 {
-		width: 30%;
+		width: 50%;
 	}
 	.second__category {
 		width: 100%;

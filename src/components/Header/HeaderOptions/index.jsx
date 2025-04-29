@@ -95,7 +95,7 @@ const HeaderOptions = (props) => {
 				}
 				{Object.keys(categories[e]).length > 1 && <div className='header__options--container--container'>
 						<div className='header__options--container--lvl1 header__options--container--lvls'>
-						{Object.keys(categories[e]).length > 1 && <Link reloadDocument to={getUrl([e])}><button className={"header__buttons solo"}>Todos</button></Link>}
+						{Object.keys(categories[e]).length > 1 && e != "Marcas" && e != "Formatos" && <Link reloadDocument to={getUrl([e])}><button className={"header__buttons solo"}>Todos</button></Link>}
 					{Object.keys(categories[e]).sort().map(f => {
 						let only = false
 						if (Object.keys(categories[e][f]).length === 1) {

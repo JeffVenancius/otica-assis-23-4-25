@@ -115,6 +115,26 @@ function App() {
 										.then(items => {
 											setTotalItems(items)
 										})
+								} else if (Object.keys(typesList).length) {
+									let promises = []
+									for (let i = 0; i < Object.keys(urls).length; i++) {
+										let url = urls[Object.keys(urls)[i]]
+										if (url && (types["Marcas"].includes(Object.keys(urls)[i]) || types["Especiais"].includes(Object.keys(urls)[i]))) {
+											promises.push(axios.get('/data/items/' + url +'.json'))
+										}
+										let currCards = []
+										axios.all(promises)
+											.then(
+												axios.spread((...allData) => {
+													allData.forEach((data) => {
+														if (typeof data['data'] === 'object') {
+															currCards.push(...data['data'])
+														}
+													})
+													setTotalItems(currCards)
+												})
+											)
+			}
 								}
 							}, [])
 
@@ -171,6 +191,7 @@ function App() {
 		setPossibleFilters(getPossibleFilters())
 
 	}, [location, totalItems])
+
 
 	return (
 		<>
