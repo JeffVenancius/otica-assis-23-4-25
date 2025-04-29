@@ -327,7 +327,8 @@
 				],
 				"tipoDeCard": "Com Preço"
 			}
-		]
+		],
+		"banner": " <a class='banner__down'> <div class='banner__down--container'> <div class='banner__down--text'><h2>Você gostaria de agendar um atendimento personalizado em uma das nossas lojas?</h2> <div class='banner__down--fakebtn'><h3>Quero agendar!</h3></div></div></div> </a>" 
 	},
 	"COMPRE E GANHE": {
 		"subtitle": "brinde exclusivo",

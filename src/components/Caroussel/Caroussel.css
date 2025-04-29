@@ -55,6 +55,11 @@
 .slick-dots {
 	bottom: -40px
 }
+@media (max-width: 760px) {
+	.caroussel__container {
+		margin-bottom: 7%;
+	}
+}
 
 @media (max-width: 660px) {
 	.slick-prev {

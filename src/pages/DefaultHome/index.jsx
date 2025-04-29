@@ -4,6 +4,7 @@ import Caroussel from '../../components/Caroussel'
 import Stores from '../../components/Stores'
 import parse from 'html-react-parser'
 import React from 'react'
+import './DefaultHome.css'
 
 const DefaultHome = () => {
 	const caroussels = caroussels_order.map(title => {
