@@ -52,6 +52,9 @@
 	}
 }
 
+.banner__down--img {
+	width: 100%;
+}
 
 @media (max-width: 450px) {
 	.banner__down--container {

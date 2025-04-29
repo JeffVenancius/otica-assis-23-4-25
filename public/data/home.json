@@ -162,7 +162,8 @@
 				],
 				"tipoDeCard": "Com Preço"
 			}
-		]
+		],
+		"banner": "<img class='banner__down--img' src='/assets/banners/banner 2.png'/>"
 	},
 	"RENOVE SEU GRAU": {
 		"subtitle": "com os mais vendidos",
