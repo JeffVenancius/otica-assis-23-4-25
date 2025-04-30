@@ -106,6 +106,7 @@ const Default = (props) => {
 		return 0
 	})
 
+
 	const totalItems_split = totalItems_sorted.slice(startPg, endPg)
 	return (
 		<>
@@ -134,7 +135,7 @@ const Default = (props) => {
 		<Pagination 
 		changePage={changePage}
 		currPage={page}
-		pages={Math.ceil(totalItems.length / itemsPerPage)}
+		pages={Math.ceil(totalItems_sorted.length / itemsPerPage)}
 		/>
 		</>
 	)
